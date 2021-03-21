@@ -1,20 +1,21 @@
 package trabav2;
 import java.util.InputMismatchException;
 
-public class Garçom extends Funcionario {
+public class GarÃ§om extends Funcionario {
 	double idSalvo = id;
 	public String Identificacao(double index) throws InputMismatchException {
-		id = index % 9;
-		 nome[0] = "João Paulo";
-		 nome[1] = "Jorge Luíz";
+		id = index % 10;
+		 nome[0] = "SebastiÃ£o Maia";
+		 nome[1] = "Henrique FogaÃ§a";
 		 nome[2] = "Eric Jacquin";
-		 nome[3] = "Arthur Cavalcante";
-		 nome[4] = "Vinicius Studart, O Major";
-		 nome[5] = "você mesmo (um clone de uma realidade paralela)";
+		 nome[3] = "Gordon Ramsay";
+		 nome[4] = "Paolla Carosella";
+		 nome[5] = "vocÃª mesmo (um clone de uma realidade paralela)";
 		 nome[6] = "o desenvolvedor deste programa";
-		 nome[7] = "Getúlio Vargas";
+		 nome[7] = "GetÃºlio Vargas";
 		 nome[8] = "uma entidade superior";
 		 nome[9] = "Salt Bae";
+		 nome[10] = "Souma Yukihira";
 		return nome[(int) id];
 	}
 	
